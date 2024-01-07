@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: wasimjenkinswithdockercomposeup 
-          image: dotnetacrlatest.azurecr.io/dotnetacrlatest:777
+          image: myregistryfor.azurecr.io/demoproject:777
           #dotnetacrlatest.azurecr.io/jaganrajagopaljenkinswithdockercomposeup
           #just comments
           #dotnetacrv1.azurecr.io/jaganrajagopaljenkinswithdockercomposeup
