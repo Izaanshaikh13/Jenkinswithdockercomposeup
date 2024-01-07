@@ -1,20 +1,20 @@
 apiVersion : apps/v1
 kind: Deployment
 metadata:
-  name: jaganrajagopaljenkinswithdockercomposeup 
+  name: wasimjenkinswithdockercomposeup 
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: jaganrajagopaljenkinswithdockercomposeup
+      app: wasimjenkinswithdockercomposeup
   template:
     metadata:
       labels:
-        app: jaganrajagopaljenkinswithdockercomposeup 
+        app: wasimjenkinswithdockercomposeup
     spec:
       containers:
-        - name: jaganrajagopaljenkinswithdockercomposeup 
-          image: dotnetacrlatest.azurecr.io/dotnetacrlatest:latest
+        - name: wasimjenkinswithdockercomposeup 
+          image: dotnetacrlatest.azurecr.io/dotnetacrlatest:777
           #dotnetacrlatest.azurecr.io/jaganrajagopaljenkinswithdockercomposeup
           #just comments
           #dotnetacrv1.azurecr.io/jaganrajagopaljenkinswithdockercomposeup
